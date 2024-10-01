@@ -2,5 +2,21 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 
+  font-family: "Titillium Web", sans-serif;
 }
+
+:root
+{
+    --black: #02010a;
+    --night-blue: #140152;
+    --semi-blue: #22007c;
+    --blue: #0d00a4;
+    --white: #FFF;
+}
+
+header {
+    background-color: var(--black);
+    color: var(--white);
+    height: 5rem;
+}
+
