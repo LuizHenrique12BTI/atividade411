@@ -15,7 +15,7 @@
 }
 
 header {
-    background-color: var(--black);
+    background-color: var(--night-blue);
     color: var(--white);
     height: 5rem;
     display: flex;
