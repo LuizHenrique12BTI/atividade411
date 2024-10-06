@@ -7,10 +7,10 @@
 
 :root
 {
-    --black: #02010a;
-    --night-blue: #140152;
-    --semi-blue: #22007c;
-    --blue: #0d00a4;
+    --black: #000000;
+    --night-blue: #14213d;
+    --yellow: #fca311;
+    --bege: #e5e5e5;
     --white: #FFF;
 }
 
@@ -18,5 +18,54 @@ header {
     background-color: var(--black);
     color: var(--white);
     height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
 }
+
+div.primeira {
+
+  padding: 1rem;
+  gap: 1rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  
+}
+div.primeira img {
+  width: 20rem;
+}
+div.primeira p {
+  width: 20rem;
+}
+
+div.segunda {
+  background-color: var(--yellow);
+  height: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+div.segunda img{
+  width: 20rem;
+}
+div.segunda p {
+  max-width: 20rem;
+}
+
+div.terceira img {
+  width: 10rem;
+  margin-right: 1rem;
+}
+div.terceira{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+
 
